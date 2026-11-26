@@ -1,1 +1,1 @@
-# 0mercy
+# Simple SMS software
