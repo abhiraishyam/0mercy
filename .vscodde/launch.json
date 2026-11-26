@@ -1,0 +1,51 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "1. Run Software 1 (Laptop Hub)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/software1_hub.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "2. Run Software 2 (SMS Relay)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/software2_sms.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "3. Run Target Device 1",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/target_device.py",
+      "args": ["Target_Device_1"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "4. Run Target Device 2",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/target_device.py",
+      "args": ["Target_Device_2"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "5. Run SMS Sender (Phone A)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/sms_sender_client.py",
+      "args": ["Phone_A"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "6. Run SMS Sender (Phone B)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/sms_sender_client.py",
+      "args": ["Phone_B"],
+      "console": "integratedTerminal"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"message_id": "b99e58d8", "timestamp": "2026-11-24T16:46:03.816949+00:00", "type": "sms_data", "source": "software_2", "target": "software_1_hub", "payload": {"sender_device": "Phone_A", "recipient_number": "9425784692", "message_text": "Hi! zero mercy", "sms_status": "SENT"}}
